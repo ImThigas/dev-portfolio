@@ -22,11 +22,16 @@
     --title-lg: bold 56px/120% var(--font-family-asap);
     --title-md: bold 24px/120% var(--font-family-asap);
     --tile-sm: bold 16px/120% var(--font-family-asap);
-    --subtitle: 20px/120% var(--font-family-inconsolata);
+    --subtitle: regular 20px/120% var(--font-family-inconsolata);
     --text-md: 16/140% var(--font-family-Mavenpro);
     --text-sm: 14px/140% var(--font-family-Mavenpro);
 }
 
 body{
     font: var(--text-sm);
+}
+
+.container{
+    max-width: 1040px;
+    margin-inline: auto;
 }
