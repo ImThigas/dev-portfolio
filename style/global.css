@@ -26,3 +26,7 @@
     --text-md: 16/140% var(--font-family-Mavenpro);
     --text-sm: 14px/140% var(--font-family-Mavenpro);
 }
+
+body{
+    font: var(--text-sm);
+}
