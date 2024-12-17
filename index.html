@@ -1,135 +1,173 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="style/index.css">
-    
+    <link rel="stylesheet" href="style/index.css" />
+
     <title>Portfólio Dev</title>
 
-    <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Inconsolata:wght@200..900&family=Maven+Pro:wght@400..900&display=swap" rel="stylesheet">
-</head>
-<body>
-    <div id="intro" class="grid">
-        <section class="container">
-            <header id="info" class="grid">
-                <div id="avatar">
-                    <img src="assets/images/Profile pic.png" alt="foto de perfil">
-                </div>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Inconsolata:wght@200..900&family=Maven+Pro:wght@400..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="intro-section" class="grid">
+      <section class="container">
+        <header id="info" class="grid">
+          <div id="avatar">
+            <img src="assets/images/Profile pic.png" alt="foto de perfil" />
+          </div>
 
-                <div id="text">
-                    <div>
-                        <h4 class="subtitle">
-                            Hello World! Meu nome é <span>Thiago Carvalho</span> e sou
-                        </h4>
-                        <h1>
-                            Desenvolvedor Fullstack
-                        </h1>
-                    </div>
-                    <div>
-                        <p>
-                            Transformo necessidades em aplicações reais, evolventes e funcionais. Desenvolvo sistemas através da <br> minha paixão pela tecnologia, contribuindo com soluções inovadoras e eficazes para desafios complexos.
-                        </p>
-                    </div>
-                </div>
-                <div id="tags">
-                    <div class="content-tag">
-                        <span class="github"></span><span>Github</span>
-                    </div>
+          <div id="text">
+            <div>
+              <h4 class="subtitle">
+                Hello World! Meu nome é <span>Thiago Carvalho</span> e sou
+              </h4>
+              <h1>Desenvolvedor Fullstack</h1>
+            </div>
+            <div>
+              <p>
+                Transformo necessidades em aplicações reais, evolventes e
+                funcionais. Desenvolvo sistemas através da <br />
+                minha paixão pela tecnologia, contribuindo com soluções
+                inovadoras e eficazes para desafios complexos.
+              </p>
+            </div>
+          </div>
+          <div id="tags">
+            <div class="content-tag">
+              <span class="github"></span><span>Github</span>
+            </div>
 
-                    <div class="content-tag">
-                        <span class="html"></span><span>HTML</span>
-                    </div>
+            <div class="content-tag">
+              <span class="html"></span><span>HTML</span>
+            </div>
 
-                    <div class="content-tag">
-                        <span class="css"></span><span>CSS</span>
-                    </div>
+            <div class="content-tag">
+              <span class="css"></span><span>CSS</span>
+            </div>
 
-                    <div class="content-tag">
-                        <span class="js"></span><span>Javascript</span>
-                    </div>
+            <div class="content-tag">
+              <span class="js"></span><span>Javascript</span>
+            </div>
 
-                    <div class="content-tag">
-                        <span class="react"></span><span>React</span>
-                    </div>
+            <div class="content-tag">
+              <span class="react"></span><span>React</span>
+            </div>
 
-                    <div class="content-tag">
-                        <span class="node-js"></span><span>Noje.js</span>
-                    </div>
-                </div>
-            </header>
-        </section>
-        <a href="#project">
-            <img src="assets/icons/caret-double-down.svg" alt="caret-double-down">
-        </a>
+            <div class="content-tag">
+              <span class="node-js"></span><span>Noje.js</span>
+            </div>
+          </div>
+        </header>
+      </section>
+      <a href="#projects-title">
+        <img src="assets/icons/caret-double-down.svg" alt="caret-double-down" />
+      </a>
     </div>
+    <div id="projects-section">
+      <section class="container">
+        <header id="projects-title">
+          <span class="subtitle">Meu trabalho</span>
+          <h2>Veja os projetos em destaque</h2>
+        </header>
+        <section id="project">
+          <article class="project-card">
+            <a href="https://imthigas.github.io/travelgram/" target="_blank">
+              <img
+                src="assets/images/Thumbnail_Project-01.png"
+                alt="Thumbnail do projeto 'Travelgram'"
+              />
+              <div>
+                <h3>Travelgram</h3>
+                <p>
+                  Rede social onde as pessoas mostram os registros de suas
+                  viagens pelo mundo
+                </p>
+              </div>
+            </a>
+          </article>
+          <article class="project-card">
+            <a href="https://imthigas.github.io/news-portal/" target="_blank">
+              <img
+                src="assets/images/Thumbnail_Project-02.png"
+                alt="Thumbnail do projeto 'Tech News'"
+              />
+              <div>
+                <h3>Tech News</h3>
+                <p>
+                  Homepage de um portal de notícias sobre a área de tecnologia
+                </p>
+              </div>
+            </a>
+          </article>
+          <article class="project-card">
+            <a href=" https://imthigas.github.io/Recipe-page/" target="_blank">
+              <img
+                src="assets/images/Thumbnail_Project-03.png"
+                alt="Thumbnail do projeto 'Página de receita'"
+              />
+              <div>
+                <h3>Página de receita</h3>
+                <p>Página com o passo a passo de uma receita para cupcakes</p>
+              </div>
+            </a>
+          </article>
+          <article class="project-card">
+            <a href="#">
+              <img
+                src="assets/images/Thumbnail_Project-04.png"
+                alt="Thumbnail do projeto 'Zingen'"
+              />
+              <div>
+                <h3>Zingen</h3>
+                <p>
+                  Landing Page completa e responsiva de um aplicativo de Karaokê
+                </p>
+              </div>
+            </a>
+          </article>
+          <article class="project-card">
+            <a href="#">
+              <img
+                src="assets/images/Thumbnail_Project-05.png"
+                alt="Thumbnail do projeto 'Refund'"
+              />
+              <div>
+                <h3>Refund</h3>
+                <p>Um sistema para pedido e acompanhamento de reembolso</p>
+              </div>
+            </a>
+          </article>
+          <article class="project-card">
+            <a href="https://imthigas.github.io/discover-about-busan/" target="_blank">
+              <img
+                src="assets/images/Thumbnail_Project-06.png"
+                alt="Thumbnail do projeto 'Página de turismo'"
+              />
+              <div>
+                <h3>Página de turismo</h3>
+                <p>
+                  Página com as principais informações para quem quer viajar
+                  para Busan
+                </p>
+              </div>
+            </a>
+          </article>
+        </section>
+      </section>
+    </div id="services">
+        <section class="container">
+            
+        </section>
     <div>
-        <section class="container">
-            <header id="projects-title">
-                <span class="subtitle">Meu trabalho</span>
-                <h2>Veja os projetos em destaque</h2>
-            </header>
-            <section id="project">
-                <article class="project-card">
-                    <a href="">
-                        <img src="assets/images/Thumbnail_Project-01.png" alt="Thumbnail do projeto 'Travelgram'">
-                        <h3>Travelgram</h3>
-                        <p>
-                            Rede social onde as pessoas mostram os registros de suas viagens pelo mundo
-                        </p>
-                    </a>
-                </article>
-                <article class="project-card">
-                    <a href="">
-                        <img src="assets/images/Thumbnail_Project-02.png" alt="Thumbnail do projeto 'Techn News'">
-                        <h3>Tech News</h3>
-                        <p>
-                            Homepage de um portal de notícias sobre a área de tecnologia
-                        </p>
-                    </a>
-                </article>
-                <article class="project-card">
-                    <a href="">
-                        <img src="assets/images/Thumbnail_Project-03.png" alt="Thumbnail do projeto 'Página de receita'">
-                        <h3>Página de receita</h3>
-                        <p>
-                            Página com o passo a passo de uma receita para cupcakes
-                        </p>
-                    </a>
-                </article>
-                <article class="project-card">
-                    <a href="#">
-                        <img src="assets/images/Thumbnail_Project-04.png" alt="Thumbnail do projeto 'Zingen'">
-                        <h3>Zingen</h3>
-                        <p>
-                            Landing Page completa e responsiva de um aplicativo de Karaokê
-                        </p>
-                    </a>
-                </article>
-                <article class="project-card">
-                    <a href="#">
-                        <img src="assets/images/Thumbnail_Project-05.png" alt="Thumbnail do projeto 'Refund'">
-                        <h3>Refund</h3>
-                        <p>
-                            Um sistema para pedido e acompanhamento de reembolso 
-                        </p>
-                    </a>
-                </article>
-                <article class="project-card">
-                    <a href="">
-                        <img src="assets/images/Thumbnail_Project-06.png" alt="Thumbnail do projeto 'Página de turismo'">
-                        <h3>Página de turismo</h3>
-                        <p>
-                            Página com as principais informações para quem quer viajar para Busan
-                        </p>
-                    </a>
-                </article>
-            </section>
-        </section>
+
     </div>
-</body>
+  </body>
 </html>

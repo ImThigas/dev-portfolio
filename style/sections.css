@@ -1,0 +1,138 @@
+/* ------ Intro ------ */
+#intro-section {
+  background: url(../assets/images/Background_Intro.png) repeat-x center;
+  background-size: cover;
+  min-height: 750px;
+
+  #info {
+    max-width: 680px;
+    display: grid;
+    justify-items: center;
+  }
+
+  #avatar {
+    margin-top: 120px;
+    position: relative;
+    width: 112px;
+    height: 112px;
+    img {
+      margin: 8px;
+      padding: 4.36px;
+      width: 87.27px;
+      aspect-ratio: 1/1;
+      border-radius: 50%;
+      border: 2px solid var(--red);
+    }
+
+    &:after {
+      content: "";
+      width: 34px;
+      height: 31px;
+      background-size: cover;
+
+      position: absolute;
+      background-image: url(../assets/code.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      right: 12px;
+      bottom: 12px;
+    }
+  }
+
+  #text {
+    margin-top: 56px;
+    margin-bottom: 20px;
+    display: grid;
+    justify-items: center;
+    h1 {
+      color: var(--gray-600);
+      font: var(--title-lg);
+    }
+
+    .subtitle {
+      padding-bottom: 8px;
+      justify-self: center;
+      font: var(--subtitle);
+      color: var(--gray-500);
+
+      span {
+        color: var(--red);
+      }
+    }
+
+    p {
+      color: var(--gray-400);
+      font: var(--text-sm);
+    }
+  }
+
+  #tags {
+    padding-block: 80px;
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+  }
+  a {
+    width: 32px;
+    height: 32px;
+    margin-inline: auto;
+  }
+}
+/* ----------------------*/
+/* ------ Projects ------ */
+#projects-section {
+  background-color: #16181d;
+
+  #projects-title {
+    display: grid;
+    justify-items: center;
+    padding-top: 72px;
+    .subtitle {
+      color: var(--red);
+      font: var(--subtitle);
+      padding-bottom: 8px;
+    }
+    h2 {
+      color: var(--gray-600);
+      font: var(--title-md);
+    }
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  #project {
+    display: grid;
+    grid-template-columns: 330px 330px 330px;
+    grid-template-rows: 280px 280px;
+    gap: 24px;
+    padding-block: 56px 144px;
+
+    .project-card:hover{
+        border: 1px solid var(--gray-400);
+    }
+    .project-card {
+      background-color: var(--gray-300);
+      border-radius: 12px;
+      img {
+        margin: 12px 12px 0 12px;
+        border-radius: 8px;
+        width: 306px;
+        height: 156px;
+      }
+      div {
+        padding: 0 12px 17px 12px;
+        h3 {
+          color: var(--gray-600);
+          font: var(--title-sm);
+          padding-block: 24px 8px;
+        }
+        p {
+          color: var(--gray-500);
+          font: var(--text-sm);
+        }
+      }
+    }
+  }
+}
