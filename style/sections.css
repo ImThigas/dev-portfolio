@@ -29,7 +29,6 @@
       width: 34px;
       height: 31px;
       background-size: cover;
-
       position: absolute;
       background-image: url(../assets/code.png);
       background-repeat: no-repeat;
@@ -87,15 +86,6 @@
     display: grid;
     justify-items: center;
     padding-top: 72px;
-    .subtitle {
-      color: var(--red);
-      font: var(--subtitle);
-      padding-bottom: 8px;
-    }
-    h2 {
-      color: var(--gray-600);
-      font: var(--title-md);
-    }
   }
 
   a {
@@ -109,8 +99,8 @@
     gap: 24px;
     padding-block: 56px 144px;
 
-    .project-card:hover{
-        border: 1px solid var(--gray-400);
+    .project-card:hover {
+      border: 1px solid var(--gray-400);
     }
     .project-card {
       background-color: var(--gray-300);
@@ -134,5 +124,13 @@
         }
       }
     }
+  }
+}
+/* ----------------------*/
+/* ----- Services ------ */
+#services-section {
+  background-color: var(--gray-100);
+  .service-card{
+    border: 1px solid var(--gray-200);
   }
 }

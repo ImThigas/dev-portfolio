@@ -1,93 +1,102 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-:root{
-    --red: #E3646E;
-    --purple: #BB72E9;
-    --blue: #3996DB;
-    --green: #82BC4F;
-    --yellow: #EABD5F;
-    --gray-100: #0D0E11;
-    --gray-200: #16181D;
-    --gray-300: #292C34;
-    --gray-400: #878EA1;
-    --gray-500: #C0C4CE;
-    --gray-600: #E2E4E9;
-    --font-family-asap: "Asap", sans-serif;
-    --font-family-Mavenpro: "Maven Pro", serif;
-    --font-family-inconsolata: "Inconsolata", serif;
-    --title-lg: 700 56px/120% var(--font-family-asap);
-    --title-md: 700 24px/120% var(--font-family-asap);
-    --title-sm: 700 16px/120% var(--font-family-asap);
-    --subtitle: 20px/120% var(--font-family-inconsolata);
-    --text-md: 16/140% var(--font-family-Mavenpro);
-    --text-sm: 14px/140% var(--font-family-Mavenpro);
+:root {
+  --red: #e3646e;
+  --purple: #bb72e9;
+  --blue: #3996db;
+  --green: #82bc4f;
+  --yellow: #eabd5f;
+  --gray-100: #0d0e11;
+  --gray-200: #16181d;
+  --gray-300: #292c34;
+  --gray-400: #878ea1;
+  --gray-500: #c0c4ce;
+  --gray-600: #e2e4e9;
+  --font-family-asap: "Asap", sans-serif;
+  --font-family-Mavenpro: "Maven Pro", serif;
+  --font-family-inconsolata: "Inconsolata", serif;
+  --title-lg: 700 56px/120% var(--font-family-asap);
+  --title-md: 700 24px/120% var(--font-family-asap);
+  --title-sm: 700 16px/120% var(--font-family-asap);
+  --subtitle: 20px/120% var(--font-family-inconsolata);
+  --text-md: 16/140% var(--font-family-Mavenpro);
+  --text-sm: 14px/140% var(--font-family-Mavenpro);
 }
 
-body{
-    font: var(--text-sm);
+body {
+  font: var(--text-sm);
+  .subtitle {
+    color: var(--red);
+    font: var(--subtitle);
+    padding-bottom: 8px;
+  }
+  h2 {
+    color: var(--gray-600);
+    font: var(--title-md);
+  }
 }
 
-.container{
-    max-width: 1040px;
-    margin-inline: auto;
+.container {
+  max-width: 1040px;
+  margin-inline: auto;
 }
 
-.content-tag{
-    display: flex;
-    align-items: center;
-    gap: 8px;
+.content-tag {
+  display: flex;
+  align-items: center;
+  gap: 8px;
 
-    background-color: var(--gray-300);
-    padding: 8px 16px;
-    border-radius: 24px;
-    span{
-        color: var(--gray-500);
-        font: var(--text-md);
-    }
+  background-color: var(--gray-300);
+  padding: 8px 16px;
+  border-radius: 24px;
+  span {
+    color: var(--gray-500);
+    font: var(--text-md);
+  }
 
-    .github{
-        background-image: url(../assets/icons/GitHub.svg);
-        width: 24px;
-        height: 24px;
-        background-size: cover;
-    }
+  .github {
+    background-image: url(../assets/icons/GitHub.svg);
+    width: 24px;
+    height: 24px;
+    background-size: cover;
+  }
 
-    .html{
-        background-image: url(../assets/icons/HTML.svg);
-        height: 24px;
-        width: 24px;
-        background-size: cover;
-    }
+  .html {
+    background-image: url(../assets/icons/HTML.svg);
+    height: 24px;
+    width: 24px;
+    background-size: cover;
+  }
 
-    .css{
-        background-image: url(../assets/icons/CSS.svg);
-        height: 24px;
-        width: 24px;
-        background-size: cover;
-    }
+  .css {
+    background-image: url(../assets/icons/CSS.svg);
+    height: 24px;
+    width: 24px;
+    background-size: cover;
+  }
 
-    .js{
-        background-image: url(../assets/icons/JavaScript.svg);
-        height: 24px;
-        width: 24px;
-        background-size: cover;
-    }
-    
-    .react{
-        background-image: url(../assets/icons/React.svg);
-        height: 24px;
-        width: 24px;
-        background-size: cover;
-    }
+  .js {
+    background-image: url(../assets/icons/JavaScript.svg);
+    height: 24px;
+    width: 24px;
+    background-size: cover;
+  }
 
-    .node-js{
-        background-image: url(../assets/icons/Node.js.svg);
-        height: 24px;
-        width: 24px;
-        background-size: cover;
-    }
+  .react {
+    background-image: url(../assets/icons/React.svg);
+    height: 24px;
+    width: 24px;
+    background-size: cover;
+  }
+
+  .node-js {
+    background-image: url(../assets/icons/Node.js.svg);
+    height: 24px;
+    width: 24px;
+    background-size: cover;
+  }
 }
