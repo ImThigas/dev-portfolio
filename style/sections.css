@@ -1,5 +1,6 @@
 /* ------ Intro ------ */
 #intro-section {
+    display: grid;
   background: url(../assets/images/Background_Intro.png) repeat-x center;
   background-size: cover;
   min-height: 750px;
@@ -129,8 +130,47 @@
 /* ----------------------*/
 /* ----- Services ------ */
 #services-section {
+  display: grid;
   background-color: var(--gray-100);
-  .service-card{
-    border: 1px solid var(--gray-200);
+  header {
+    display: grid;
+    span {
+      justify-self: center;
+    }
+    h2 {
+      justify-self: center;
+    }
+    padding-block: 88px 56px;
   }
+  #services {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 120px;
+    .service-card {
+      width: 280px;
+      height: 155px;
+      border: 1px solid var(--gray-200);
+      border-radius: 12px;
+        img{
+            padding: 20px;
+        }
+        div{
+            padding: 0 20px;
+        }
+      h3 {
+        color: var(--gray-600);
+        font: var(--title-sm);
+        padding-bottom: 8px;
+      }
+      p {
+        color: var(--gray-500);
+        font: var(--text-sm);
+      }
+    }
+  }
+}
+/* ----------------------*/
+/* ------ Contact ------ */
+#contact-section{
+    
 }
