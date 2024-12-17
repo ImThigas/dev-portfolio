@@ -1,6 +1,6 @@
 /* ------ Intro ------ */
 #intro-section {
-    display: grid;
+  display: grid;
   background: url(../assets/images/Background_Intro.png) repeat-x center;
   background-size: cover;
   min-height: 750px;
@@ -151,12 +151,12 @@
       height: 155px;
       border: 1px solid var(--gray-200);
       border-radius: 12px;
-        img{
-            padding: 20px;
-        }
-        div{
-            padding: 0 20px;
-        }
+      img {
+        padding: 20px;
+      }
+      div {
+        padding: 0 20px;
+      }
       h3 {
         color: var(--gray-600);
         font: var(--title-sm);
@@ -171,6 +171,156 @@
 }
 /* ----------------------*/
 /* ------ Contact ------ */
-#contact-section{
-    
+#contact-section {
+  background-image: url(../assets/images/Background_Contacts.png);
+  background-size: cover;
+  min-height: 750px;
+
+  header {
+    display: grid;
+    padding-block: 128px 48px;
+    .subtitle {
+      justify-self: center;
+      color: var(--purple);
+    }
+    h2 {
+      justify-self: center;
+    }
+    p {
+      justify-self: center;
+      padding-top: 8px;
+      color: var(--gray-500);
+      font: var(--text-md);
+    }
+  }
+  section {
+    display: grid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    a {
+      border-radius: 8px;
+      text-decoration: none;
+      .contact-card {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: var(--gray-300);
+        border-radius: 8px;
+
+        width: 400px;
+        height: 68px;
+        p {
+          color: var(--gray-500);
+          font: var(--text-md);
+        }
+        div {
+          display: flex;
+          position: relative;
+          gap: 12px;
+          align-items: center;
+          .linkedin-contact {
+            margin-left: 12px;
+            position: relative;
+            content: "";
+            background-image: url(../assets/icons/linkedin-logo.svg);
+            width: 28px;
+            height: 28px;
+            background-size: cover;
+          }
+          .instagram-contact {
+            margin-left: 12px;
+            position: relative;
+            content: "";
+            background-image: url(../assets/icons/instagram-logo.svg);
+            width: 28px;
+            height: 28px;
+            background-size: cover;
+          }
+          .github-contact {
+            margin-left: 12px;
+            position: relative;
+            content: "";
+            background-image: url(../assets/icons/github-logo.svg);
+            width: 28px;
+            height: 28px;
+            background-size: cover;
+          }
+
+          .email-contact {
+            margin-left: 12px;
+            position: relative;
+            content: "";
+            background-image: url(../assets/icons/email.svg);
+            width: 28px;
+            height: 28px;
+            background-size: cover;
+          }
+        }
+        .arrow-contact {
+          margin-right: 12px;
+          position: relative;
+          content: "";
+          background-image: url(../assets/icons/arrow-up-right.svg);
+          width: 20px;
+          height: 20px;
+          background-size: cover;
+        }
+      }
+    }
+    a:hover {
+      border: 1px solid var(--blue);
+      p {
+        color: var(--blue);
+      }
+      .arrow-contact {
+        padding-inline: auto;
+        position: relative;
+        content: "";
+        background-image: url(../assets/icons/arrow-up-right-hover.svg);
+        width: 20px;
+        height: 20px;
+        background-size: cover;
+      }
+      div {
+        .linkedin-contact {
+          margin-left: 12px;
+          position: relative;
+          content: "";
+          background-image: url(../assets/icons/linkedin-logo-hover.svg);
+          width: 28px;
+          height: 28px;
+          background-size: cover;
+        }
+        .instagram-contact {
+            margin-left: 12px;
+            position: relative;
+            content: "";
+            background-image: url(../assets/icons/instagram-logo-hover.svg);
+            width: 28px;
+            height: 28px;
+            background-size: cover;
+          }
+          .github-contact {
+            margin-left: 12px;
+            position: relative;
+            content: "";
+            background-image: url(../assets/icons/github-logo-hover.svg);
+            width: 28px;
+            height: 28px;
+            background-size: cover;
+          }
+          .email-contact {
+            margin-left: 12px;
+            position: relative;
+            content: "";
+            background-image: url(../assets/icons/email-hover.svg);
+            width: 28px;
+            height: 28px;
+            background-size: cover;
+          }
+      }
+    }
+  }
 }
