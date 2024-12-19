@@ -1,7 +1,7 @@
 # Portfólio Dev
 O Portfólio Dev é um repositório que reúne projetos desenvolvidos para demonstrar habilidades e experiências de desenvolvimento. Este portfólio inclui aplicações e sites criados com diversas tecnologias, visando destacar as competências em front-end e as boas práticas de desenvolvimento.
 
-<img src="https://github.com/user-attachments/assets/c89a0d16-5f52-44dd-94b0-1358c277676f" width="800px">
+<img src="/assets/image-1.png" width="650px" height="auto">
 
 
 ## Funcionalidades
@@ -9,7 +9,7 @@ O Portfólio Dev é um repositório que reúne projetos desenvolvidos para demon
 - Demonstração de habilidades com um design limpo e interativo.
 - Apresentação de soluções para problemas reais de desenvolvimento.
 
-<img src="https://github.com/user-attachments/assets/64ba4648-d77f-44bc-9e8c-06f02af8a979" width="800px">
+<img src="/assets/image-2.png" width="650px" height="auto">
 
 
 ## Tecnologias Utilizadas
