@@ -16,7 +16,7 @@ O Portfólio Dev é um repositório que reúne projetos desenvolvidos para demon
 - **HTML5:** Estrutura básica do site.
 - **CSS3:** Estilos e layouts responsivos.
 - **Git:** Controle de versão para gerenciamento do código-fonte.
-- **Google Fonts:** Tipografias personalizadas.
+- **Google Fonts**: Tipografias personalizadas para melhorar a leitura.
 
 ## Sobre o Projeto
 Este projeto foi desenvolvido como parte do curso Fullstack da Rocketseat.
